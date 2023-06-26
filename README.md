@@ -1,4 +1,4 @@
-## PDF to Text Converter
+## Persian PDF to Text Converter
 
 This repository contains code that enables the automated conversion of PDF files to text in Colab or Linux environments. The code utilizes OCR (Optical Character Recognition) techniques to extract text from PDF documents.
 
