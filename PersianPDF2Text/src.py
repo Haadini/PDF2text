@@ -11,7 +11,7 @@ from docx import Document
 
 pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 
-def remove_non_xml_chars(text, type):
+def remove_non_xml_chars(text):
     """
     Remove non-XML-compatible characters from the text.
     """
@@ -63,7 +63,7 @@ def pdf_to_word(pdf_path, output_dir, lang='fas', **kwargs):
         paragraph.alignment = WD_ALIGN_PARAGRAPH.RIGHT
         paragraph.style = document.styles['Normal']
     
-    output_path = os.path.join(output_dir, f'{pdf_name}.{type}')
+    output_path = os.path.join(output_dir, f'{pdf_name}.docx')
     document.save(output_path)
     print(f'Done! Your document can be find here "{output_path}"')
 
