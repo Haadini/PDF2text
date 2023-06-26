@@ -14,7 +14,7 @@ This repository contains code that enables the automated conversion of PDF files
 - Clone
 ```bash
 !git clone https://github.com/Haadini/PDF2text.git
-
+```
 - Clone
 ```bash
 !git clone https://github.com/Haadini/PDF2text.git
